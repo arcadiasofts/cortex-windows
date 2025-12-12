@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package cortex;
+
+message BeaconRecord {
+    string guild_id    = 1;
+    string current_url = 2;
+    int64  timestamp   = 3;
+    bytes  signature   = 4;
+}
+
